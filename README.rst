@@ -73,4 +73,4 @@ The main differences with torchnet is the level of abstraction for the user. Ign
 
 Ignite also allows for multiple handlers to be attached to events, and a finer granularity of events in the engine loop.
 
-This line is just to check the push/pull behaviour in two repositories (bitbucket/github).
+This line is just to check the push/pull behaviour in two repositories (bitbucket/github). Now I edited it online in bitbucket.
