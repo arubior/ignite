@@ -72,5 +72,3 @@ Ignite, in spirit is very similar to `torchnet <https://github.com/pytorch/tnt>`
 The main differences with torchnet is the level of abstraction for the user. Ignite's higher level of abstraction assumes less about the type of network (or networks) that you are training, and we require the user to define the closure to be run in the training and validation loop. In contrast to this, torchnet creates this closure internally based on the network and optimizer you pass to it. This higher level of abstraction allows for a great deal more of flexibility, such as co-training multiple models (i.e. GANs) and computing/tracking multiple losses and metrics in your training loop.
 
 Ignite also allows for multiple handlers to be attached to events, and a finer granularity of events in the engine loop.
-
-This line is just to check the push/pull behaviour in two repositories (bitbucket/github). Now I edited it online in bitbucket.
